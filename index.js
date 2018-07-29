@@ -36,5 +36,9 @@ function removeFirstKitten() {
   return newKittens
 }
 
+function removeLastKitten() {
+  const newKittens = kittens
+}
+
 
 
