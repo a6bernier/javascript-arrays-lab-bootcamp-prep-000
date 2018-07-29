@@ -37,7 +37,7 @@ function removeFirstKitten() {
 }
 
 function removeLastKitten() {
-  const newKittens = 
+  const newKittens = array.slice(0, array.length = 3)
   return newKittens
 }
 
