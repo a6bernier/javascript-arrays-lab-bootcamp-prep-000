@@ -22,6 +22,6 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  const kittens = kittens.pop("name")
+  const kittens = kittens.pop()
   return kittens
 }
