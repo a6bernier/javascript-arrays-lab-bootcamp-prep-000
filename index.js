@@ -37,7 +37,7 @@ function removeFirstKitten() {
 }
 
 function removeLastKitten() {
-  const newKittens = kittens.unshift
+  const newKittens = kittens.unshift()
   return newKittens
 }
 
