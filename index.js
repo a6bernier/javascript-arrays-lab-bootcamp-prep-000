@@ -32,8 +32,8 @@ function prependKitten(name) {
 }
 
 function removeFirstKitten() {
-  kittens = kittens.slice(1)
-  return kittens
+  const newKittens = kittens.slice(1)
+  return newKittens
 }
 
 
